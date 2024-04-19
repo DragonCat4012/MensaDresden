@@ -53,5 +53,6 @@ struct MealList: View {
 struct MealList_Previews: PreviewProvider {
     static var previews: some View {
         MealList(canteen: Canteen.example, selectedDate: .constant(Date()))
+            .environmentObject(API())
     }
 }

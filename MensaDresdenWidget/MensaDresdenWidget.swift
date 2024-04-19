@@ -8,6 +8,8 @@
 
 import WidgetKit
 import SwiftUI
+import EmealKit
+import KeychainItem
 
 struct Provider: TimelineProvider {
     func placeholder(in context: Context) -> SimpleEntry {
@@ -41,9 +43,10 @@ struct SimpleEntry: TimelineEntry {
 
 struct MensaDresdenWidgetEntryView : View {
     var entry: Provider.Entry
-
+    
     var body: some View {
-        Text(entry.date, style: .time)
+        MealList(canteen: Canteen.example, selectedDate: Binding.constant(entry.date))
+            .environmentObject(API())
     }
 }
 

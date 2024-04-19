@@ -8,6 +8,7 @@
 
 import WidgetKit
 import SwiftUI
+import KeychainItem
 
 @main
 struct MensaDresdenWidgetBundle: WidgetBundle {
