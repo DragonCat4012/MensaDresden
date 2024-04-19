@@ -122,6 +122,45 @@
 		EF9EF52628115AE100E7EE19 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9EF52528115AE100E7EE19 /* AppView.swift */; };
 		EFF0399628117E060054C3E9 /* MealDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF0399528117E060054C3E9 /* MealDetailView.swift */; };
 		EFF0399C281180690054C3E9 /* MealImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF0399B281180690054C3E9 /* MealImage.swift */; };
+		F19AA82F2BCD979900F1B2C0 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F19AA82E2BCD979900F1B2C0 /* WidgetKit.framework */; };
+		F19AA8312BCD979900F1B2C0 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F19AA8302BCD979900F1B2C0 /* SwiftUI.framework */; };
+		F19AA8342BCD979900F1B2C0 /* MensaDresdenWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19AA8332BCD979900F1B2C0 /* MensaDresdenWidgetBundle.swift */; };
+		F19AA8362BCD979900F1B2C0 /* MensaDresdenWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19AA8352BCD979900F1B2C0 /* MensaDresdenWidget.swift */; };
+		F19AA8382BCD979A00F1B2C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F19AA8372BCD979A00F1B2C0 /* Assets.xcassets */; };
+		F19AA83C2BCD979A00F1B2C0 /* MensaDresdenWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F19AA82D2BCD979900F1B2C0 /* MensaDresdenWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F19AA8412BCD987500F1B2C0 /* MealImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF0399B281180690054C3E9 /* MealImage.swift */; };
+		F19AA8432BCD988F00F1B2C0 /* EmealKit in Frameworks */ = {isa = PBXBuildFile; productRef = F19AA8422BCD988F00F1B2C0 /* EmealKit */; };
+		F19AA8442BCD98C200F1B2C0 /* Meal+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39281C8C234297E000E4EFB5 /* Meal+Extensions.swift */; };
+		F19AA8452BCD996800F1B2C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39281C63234241BC00E4EFB5 /* Assets.xcassets */; };
+		F19AA8462BCD9A2000F1B2C0 /* MealList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398B34E3236CC6B500C10D9B /* MealList.swift */; };
+		F19AA8472BCD9A5500F1B2C0 /* LoadingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398B34E7236CDE7D00C10D9B /* LoadingListView.swift */; };
+		F19AA8482BCD9A5F00F1B2C0 /* MealDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394D9D002343D0C9005F076C /* MealDetailView.swift */; };
+		F19AA8492BCD9A8000F1B2C0 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391B94F9276574E40071E678 /* API.swift */; };
+		F19AA84A2BCD9AF100F1B2C0 /* Canteen+Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39281C8E2342985900E4EFB5 /* Canteen+Example.swift */; };
+		F19AA84B2BCD9B0800F1B2C0 /* LoadingResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398B34E1236CB95900C10D9B /* LoadingResult.swift */; };
+		F19AA84C2BCD9B1000F1B2C0 /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390B777527E21B6100DEF4E3 /* Analytics.swift */; };
+		F19AA84D2BCD9B1700F1B2C0 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A141902348813D00FEE789 /* Settings.swift */; };
+		F19AA84E2BCD9B2500F1B2C0 /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A141942348EBEE00FEE789 /* UserDefault.swift */; };
+		F19AA84F2BCD9B2C00F1B2C0 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912B7B8282E8184006C3354 /* UserDefaults.swift */; };
+		F19AA8502BCD9B3000F1B2C0 /* BlacklistBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A141922348EBC000FEE789 /* BlacklistBinding.swift */; };
+		F19AA8512BCD9B3C00F1B2C0 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A0C94523623B9E0029FA35 /* Date.swift */; };
+		F19AA8522BCD9B4400F1B2C0 /* MealCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39281C7E23427F9B00E4EFB5 /* MealCell.swift */; };
+		F19AA8532BCD9B5300F1B2C0 /* PriceLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39281C802342823800E4EFB5 /* PriceLabel.swift */; };
+		F19AA8542BCD9B5B00F1B2C0 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3918AD412782FD2A00B82373 /* Meal.swift */; };
+		F19AA8552BCD9B6400F1B2C0 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395EA6D6282A9CD3002F8055 /* Logger.swift */; };
+		F19AA8562BCD9B7700F1B2C0 /* CardserviceErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391B9500276674F60071E678 /* CardserviceErrorWrapper.swift */; };
+		F19AA8572BCD9B7C00F1B2C0 /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FC09D72361AFEE008D8AB0 /* Formatter.swift */; };
+		F19AA8582BCD9B8D00F1B2C0 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3969E12D24FFAE0C00036C69 /* Color.swift */; };
+		F19AA8592BCD9B9500F1B2C0 /* L10n.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391B94F727656B210071E678 /* L10n.swift */; };
+		F19AA85A2BCD9B9C00F1B2C0 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E215802358E29D00F5EBE9 /* LocationManager.swift */; };
+		F19AA85B2BCD9BA300F1B2C0 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396FC3E12357A1A9007B97F3 /* Transaction.swift */; };
+		F19AA85C2BCD9BAA00F1B2C0 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398E07802848C6CB004FFDFF /* SafariView.swift */; };
+		F1BBD0242BD2B2C900035CF5 /* KeychainItem in Frameworks */ = {isa = PBXBuildFile; productRef = F1BBD0232BD2B2C900035CF5 /* KeychainItem */; };
+		F1BBD0272BD2B37800035CF5 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = F1BBD0262BD2B37800035CF5 /* KeychainAccess */; };
+		F1BBD0292BD2B38300035CF5 /* SwiftyHolidays in Frameworks */ = {isa = PBXBuildFile; productRef = F1BBD0282BD2B38300035CF5 /* SwiftyHolidays */; };
+		F1BBD02B2BD2B38E00035CF5 /* ImageViewerRemote in Frameworks */ = {isa = PBXBuildFile; productRef = F1BBD02A2BD2B38E00035CF5 /* ImageViewerRemote */; };
+		F1BBD02D2BD2B39D00035CF5 /* ImageViewer in Frameworks */ = {isa = PBXBuildFile; productRef = F1BBD02C2BD2B39D00035CF5 /* ImageViewer */; };
+		F1BBD02F2BD2B3A300035CF5 /* TelemetryClient in Frameworks */ = {isa = PBXBuildFile; productRef = F1BBD02E2BD2B3A300035CF5 /* TelemetryClient */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -153,6 +192,13 @@
 			remoteGlobalIDString = EF9EF4D62811504200E7EE19;
 			remoteInfo = MensaDresdenWatch;
 		};
+		F19AA83A2BCD979A00F1B2C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39281C52234241B900E4EFB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F19AA82C2BCD979900F1B2C0;
+			remoteInfo = MensaDresdenWidgetExtension;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -176,6 +222,17 @@
 				EF9EF4F22811504300E7EE19 /* MensaDD.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19AA83D2BCD979A00F1B2C0 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F19AA83C2BCD979A00F1B2C0 /* MensaDresdenWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -278,6 +335,14 @@
 		EF9EF52528115AE100E7EE19 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		EFF0399528117E060054C3E9 /* MealDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailView.swift; sourceTree = "<group>"; };
 		EFF0399B281180690054C3E9 /* MealImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealImage.swift; sourceTree = "<group>"; };
+		F19AA82D2BCD979900F1B2C0 /* MensaDresdenWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MensaDresdenWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F19AA82E2BCD979900F1B2C0 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		F19AA8302BCD979900F1B2C0 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		F19AA8332BCD979900F1B2C0 /* MensaDresdenWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MensaDresdenWidgetBundle.swift; sourceTree = "<group>"; };
+		F19AA8352BCD979900F1B2C0 /* MensaDresdenWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MensaDresdenWidget.swift; sourceTree = "<group>"; };
+		F19AA8372BCD979A00F1B2C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F19AA8392BCD979A00F1B2C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1BBD0252BD2B2DF00035CF5 /* MensaDresdenWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MensaDresdenWidgetExtension.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -321,18 +386,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F19AA82A2BCD979900F1B2C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BBD02D2BD2B39D00035CF5 /* ImageViewer in Frameworks */,
+				F1BBD02F2BD2B3A300035CF5 /* TelemetryClient in Frameworks */,
+				F1BBD02B2BD2B38E00035CF5 /* ImageViewerRemote in Frameworks */,
+				F19AA8432BCD988F00F1B2C0 /* EmealKit in Frameworks */,
+				F19AA8312BCD979900F1B2C0 /* SwiftUI.framework in Frameworks */,
+				F19AA82F2BCD979900F1B2C0 /* WidgetKit.framework in Frameworks */,
+				F1BBD0242BD2B2C900035CF5 /* KeychainItem in Frameworks */,
+				F1BBD0272BD2B37800035CF5 /* KeychainAccess in Frameworks */,
+				F1BBD0292BD2B38300035CF5 /* SwiftyHolidays in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		39281C51234241B900E4EFB5 = {
 			isa = PBXGroup;
 			children = (
+				F1BBD0252BD2B2DF00035CF5 /* MensaDresdenWidgetExtension.entitlements */,
 				3997A368255F232900B7BD78 /* mommsenstr.gpx */,
 				39281C5C234241B900E4EFB5 /* MensaDresden */,
 				39FAEBF82781113E0035776F /* UITests */,
 				39FAEC0B2781E6350035776F /* Screenshots */,
 				EF9EF4D82811504200E7EE19 /* MensaDresdenWatch */,
 				EF9EF4E32811504300E7EE19 /* MensaDresdenWatch WatchKit Extension */,
+				F19AA8322BCD979900F1B2C0 /* MensaDresdenWidget */,
 				39281C5B234241B900E4EFB5 /* Products */,
 				39281CC0234318F400E4EFB5 /* Frameworks */,
 			);
@@ -346,6 +429,7 @@
 				39FAEC0A2781E6350035776F /* Screenshots.xctest */,
 				EF9EF4D72811504200E7EE19 /* MensaDD.app */,
 				EF9EF4DF2811504300E7EE19 /* MensaDresdenWatch WatchKit Extension.appex */,
+				F19AA82D2BCD979900F1B2C0 /* MensaDresdenWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -422,6 +506,8 @@
 		39281CC0234318F400E4EFB5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F19AA82E2BCD979900F1B2C0 /* WidgetKit.framework */,
+				F19AA8302BCD979900F1B2C0 /* SwiftUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -587,6 +673,17 @@
 			path = MealList;
 			sourceTree = "<group>";
 		};
+		F19AA8322BCD979900F1B2C0 /* MensaDresdenWidget */ = {
+			isa = PBXGroup;
+			children = (
+				F19AA8332BCD979900F1B2C0 /* MensaDresdenWidgetBundle.swift */,
+				F19AA8352BCD979900F1B2C0 /* MensaDresdenWidget.swift */,
+				F19AA8372BCD979A00F1B2C0 /* Assets.xcassets */,
+				F19AA8392BCD979A00F1B2C0 /* Info.plist */,
+			);
+			path = MensaDresdenWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -598,11 +695,13 @@
 				39281C57234241B900E4EFB5 /* Frameworks */,
 				39281C58234241B900E4EFB5 /* Resources */,
 				EF9EF4FA2811504300E7EE19 /* Embed Watch Content */,
+				F19AA83D2BCD979A00F1B2C0 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				EF9EF4F12811504300E7EE19 /* PBXTargetDependency */,
+				F19AA83B2BCD979A00F1B2C0 /* PBXTargetDependency */,
 			);
 			name = MensaDresden;
 			packageProductDependencies = (
@@ -695,6 +794,32 @@
 			productReference = EF9EF4DF2811504300E7EE19 /* MensaDresdenWatch WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
+		F19AA82C2BCD979900F1B2C0 /* MensaDresdenWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F19AA8402BCD979A00F1B2C0 /* Build configuration list for PBXNativeTarget "MensaDresdenWidgetExtension" */;
+			buildPhases = (
+				F19AA8292BCD979900F1B2C0 /* Sources */,
+				F19AA82A2BCD979900F1B2C0 /* Frameworks */,
+				F19AA82B2BCD979900F1B2C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MensaDresdenWidgetExtension;
+			packageProductDependencies = (
+				F19AA8422BCD988F00F1B2C0 /* EmealKit */,
+				F1BBD0232BD2B2C900035CF5 /* KeychainItem */,
+				F1BBD0262BD2B37800035CF5 /* KeychainAccess */,
+				F1BBD0282BD2B38300035CF5 /* SwiftyHolidays */,
+				F1BBD02A2BD2B38E00035CF5 /* ImageViewerRemote */,
+				F1BBD02C2BD2B39D00035CF5 /* ImageViewer */,
+				F1BBD02E2BD2B3A300035CF5 /* TelemetryClient */,
+			);
+			productName = MensaDresdenWidgetExtension;
+			productReference = F19AA82D2BCD979900F1B2C0 /* MensaDresdenWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -704,7 +829,7 @@
 				KnownAssetTags = (
 					New,
 				);
-				LastSwiftUpdateCheck = 1330;
+				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1320;
 				ORGANIZATIONNAME = "Kilian Koeltzsch";
 				TargetAttributes = {
@@ -724,6 +849,9 @@
 					};
 					EF9EF4DE2811504300E7EE19 = {
 						CreatedOnToolsVersion = 13.3.1;
+					};
+					F19AA82C2BCD979900F1B2C0 = {
+						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
@@ -758,6 +886,7 @@
 				EF9EF4DE2811504300E7EE19 /* MensaDresdenWatch WatchKit Extension */,
 				39FAEBF62781113E0035776F /* UITests */,
 				39FAEC092781E6350035776F /* Screenshots */,
+				F19AA82C2BCD979900F1B2C0 /* MensaDresdenWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -804,6 +933,15 @@
 				EF9EF4EE2811504300E7EE19 /* Preview Assets.xcassets in Resources */,
 				EF26D77E282B9F5600D35E13 /* Localizable.strings in Resources */,
 				EF9EF4EB2811504300E7EE19 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19AA82B2BCD979900F1B2C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19AA8452BCD996800F1B2C0 /* Assets.xcassets in Resources */,
+				F19AA8382BCD979A00F1B2C0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -930,6 +1068,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F19AA8292BCD979900F1B2C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19AA8572BCD9B7C00F1B2C0 /* Formatter.swift in Sources */,
+				F19AA85C2BCD9BAA00F1B2C0 /* SafariView.swift in Sources */,
+				F19AA84A2BCD9AF100F1B2C0 /* Canteen+Example.swift in Sources */,
+				F19AA85A2BCD9B9C00F1B2C0 /* LocationManager.swift in Sources */,
+				F19AA8582BCD9B8D00F1B2C0 /* Color.swift in Sources */,
+				F19AA8362BCD979900F1B2C0 /* MensaDresdenWidget.swift in Sources */,
+				F19AA84E2BCD9B2500F1B2C0 /* UserDefault.swift in Sources */,
+				F19AA8522BCD9B4400F1B2C0 /* MealCell.swift in Sources */,
+				F19AA8512BCD9B3C00F1B2C0 /* Date.swift in Sources */,
+				F19AA8342BCD979900F1B2C0 /* MensaDresdenWidgetBundle.swift in Sources */,
+				F19AA8592BCD9B9500F1B2C0 /* L10n.swift in Sources */,
+				F19AA8502BCD9B3000F1B2C0 /* BlacklistBinding.swift in Sources */,
+				F19AA8462BCD9A2000F1B2C0 /* MealList.swift in Sources */,
+				F19AA84C2BCD9B1000F1B2C0 /* Analytics.swift in Sources */,
+				F19AA8542BCD9B5B00F1B2C0 /* Meal.swift in Sources */,
+				F19AA8472BCD9A5500F1B2C0 /* LoadingListView.swift in Sources */,
+				F19AA84D2BCD9B1700F1B2C0 /* Settings.swift in Sources */,
+				F19AA8482BCD9A5F00F1B2C0 /* MealDetailView.swift in Sources */,
+				F19AA8532BCD9B5300F1B2C0 /* PriceLabel.swift in Sources */,
+				F19AA85B2BCD9BA300F1B2C0 /* Transaction.swift in Sources */,
+				F19AA8442BCD98C200F1B2C0 /* Meal+Extensions.swift in Sources */,
+				F19AA8552BCD9B6400F1B2C0 /* Logger.swift in Sources */,
+				F19AA8492BCD9A8000F1B2C0 /* API.swift in Sources */,
+				F19AA8562BCD9B7700F1B2C0 /* CardserviceErrorWrapper.swift in Sources */,
+				F19AA8412BCD987500F1B2C0 /* MealImage.swift in Sources */,
+				F19AA84F2BCD9B2C00F1B2C0 /* UserDefaults.swift in Sources */,
+				F19AA84B2BCD9B0800F1B2C0 /* LoadingResult.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -952,6 +1124,11 @@
 			isa = PBXTargetDependency;
 			target = EF9EF4D62811504200E7EE19 /* MensaDresdenWatch */;
 			targetProxy = EF9EF4F02811504300E7EE19 /* PBXContainerItemProxy */;
+		};
+		F19AA83B2BCD979A00F1B2C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F19AA82C2BCD979900F1B2C0 /* MensaDresdenWidgetExtension */;
+			targetProxy = F19AA83A2BCD979A00F1B2C0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1112,6 +1289,7 @@
 		39281C6F234241BC00E4EFB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "MensaDresden/Mensa Dresden.entitlements";
 				CODE_SIGN_STYLE = Automatic;
@@ -1137,6 +1315,7 @@
 		39281C70234241BC00E4EFB5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "MensaDresden/Mensa Dresden.entitlements";
 				CODE_SIGN_STYLE = Automatic;
@@ -1357,6 +1536,66 @@
 			};
 			name = Release;
 		};
+		F19AA83E2BCD979A00F1B2C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = MensaDresdenWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HU85FER47E;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MensaDresdenWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MensaDresdenWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 Kilian Koeltzsch. All rights reserved.";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.kilian.MensaDresden.MensaDresdenWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F19AA83F2BCD979A00F1B2C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = MensaDresdenWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HU85FER47E;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MensaDresdenWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MensaDresdenWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 Kilian Koeltzsch. All rights reserved.";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.kilian.MensaDresden.MensaDresdenWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1410,6 +1649,15 @@
 			buildConfigurations = (
 				EF9EF4F82811504300E7EE19 /* Debug */,
 				EF9EF4F92811504300E7EE19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F19AA8402BCD979A00F1B2C0 /* Build configuration list for PBXNativeTarget "MensaDresdenWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19AA83E2BCD979A00F1B2C0 /* Debug */,
+				F19AA83F2BCD979A00F1B2C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1535,6 +1783,41 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 3997DCC62455931500763C07 /* XCRemoteSwiftPackageReference "SwiftyHolidays" */;
 			productName = SwiftyHolidays;
+		};
+		F19AA8422BCD988F00F1B2C0 /* EmealKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 39D0122628330DD300EBA1E4 /* XCRemoteSwiftPackageReference "EmealKit" */;
+			productName = EmealKit;
+		};
+		F1BBD0232BD2B2C900035CF5 /* KeychainItem */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 396FC3BA2353BF60007B97F3 /* XCRemoteSwiftPackageReference "keychain-item" */;
+			productName = KeychainItem;
+		};
+		F1BBD0262BD2B37800035CF5 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 39AEA5282A18B3E700A70B6E /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+		F1BBD0282BD2B38300035CF5 /* SwiftyHolidays */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3997DCC62455931500763C07 /* XCRemoteSwiftPackageReference "SwiftyHolidays" */;
+			productName = SwiftyHolidays;
+		};
+		F1BBD02A2BD2B38E00035CF5 /* ImageViewerRemote */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 395EA6D32829BE84002F8055 /* XCRemoteSwiftPackageReference "swiftui-image-viewer" */;
+			productName = ImageViewerRemote;
+		};
+		F1BBD02C2BD2B39D00035CF5 /* ImageViewer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 395EA6D32829BE84002F8055 /* XCRemoteSwiftPackageReference "swiftui-image-viewer" */;
+			productName = ImageViewer;
+		};
+		F1BBD02E2BD2B3A300035CF5 /* TelemetryClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 390B777227E211E600DEF4E3 /* XCRemoteSwiftPackageReference "SwiftClient" */;
+			productName = TelemetryClient;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
